@@ -1,0 +1,44 @@
+The first step is to install the modules scikit, matplotlib and numpy.  
+
+Linux
+
+You may want to install inside a virtual environment,
+
+virtualenv -p python3 project
+cd project
+source bin/activate
+Otherwise add sudo to the commands below
+
+pip3 install scikit-learn
+pip3 install numpy
+pip3 install matplotlib
+Mac
+
+To setup a virtual environment (optional)
+
+virtualenv -p python3 project
+cd project
+source bin/activate
+Otherwise add sudo to the commands below
+
+pip3 install -U scikit-learn
+pip3 install numpy
+pip3 install matplotlib
+
+
+Windows
+
+If you use Windows there are 3 options
+
+1. Install Anaconda and use conda to install
+
+conda install scikit-learn
+conda install matplotlib
+conda install numpy
+2. Update pip, setuptools and install
+
+pip install -U pip setuptools
+pip install scikit-learn
+pip install -U matplotlib
+pip install numpy
+3. Use winpython
