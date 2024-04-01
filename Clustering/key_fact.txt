@@ -1,0 +1,15 @@
+Clustering:
+1) No training phase, "unsupervised learning algorithm"
+2) Can predict.  Which cluster new value belongs to?
+
+
+The algorithms can be grouped like so:
+- Algorithms
+
+   1-Supervised Learning
+
+     1a)Classification
+     1b)Regression
+
+   2- Unsupervised Learning
+     2a) Clustering
